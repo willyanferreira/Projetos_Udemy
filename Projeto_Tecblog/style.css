@@ -27,7 +27,14 @@ a{
     text-decoration: none;
 }
 
-#menu a:link, a:visited{
+a:link, a:visited{
+    color: #F7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+#menu a:link, #menu a:visited{
     color: #fff;
     padding: 8px 12px;
 }
@@ -36,6 +43,7 @@ a{
     color: #F7b600;
     background-color: #fff;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 #logo h1{
@@ -52,6 +60,7 @@ a{
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    padding: 10px;
 }
 
 #postagens{
@@ -63,12 +72,40 @@ a{
     background: #fff;
 }
 
+.postagem h2{
+    color: #f7b600;
+}
+
+.dataPostagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+}
+
 .postagem img{
-    padding-top: 2px;
+    padding-top: 10px;
 }
 
 #lateral{
     width: 240px;
+}
+
+.conteudoLateral{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20pxx;
+}
+
+.conteudoLateral h3{
+    color: #565656;
+    background: #ccc;
+    text-align: center;
+    padding: 5px;
+}
+
+.textoLateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
 }
 
 #rodape{
