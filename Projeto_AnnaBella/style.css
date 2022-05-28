@@ -1,0 +1,49 @@
+body{
+    background: #d2d2c1 url("img/fundo.png");
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#menu{
+    padding: 18px;
+    background: #c5c5b2;
+}
+
+a{
+    color: #ab566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#conteudo{
+    background: #e8e8d9;
+    padding: 10px;
+}
+
+h1{
+    color: #828271;
+    font-size: 1.2em;
+}
+
+#rodape{
+    text-align: center;
+}
+
+.campanhas{
+    border: 10px solid #c3c3ae;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.imgs{
+    text-align: center;    
+}
+
+.imgs p{
+    text-align: justify;
+}
