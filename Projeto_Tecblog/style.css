@@ -23,9 +23,12 @@ body{
     padding: 10px;
 }
 
+a{
+    text-decoration: none;
+}
+
 #menu a:link, a:visited{
     color: #fff;
-    text-decoration: none;
     padding: 8px 12px;
 }
 
@@ -42,4 +45,36 @@ body{
 
 #logo span.branco{
     color: #fff;
+}
+
+#principal{
+    width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#postagens{
+    width: 660px;
+}
+
+.postagem{
+    padding: 15px;
+    background: #fff;
+}
+
+.postagem img{
+    padding-top: 2px;
+}
+
+#lateral{
+    width: 240px;
+}
+
+#rodape{
+    background: #ccc;
+    width: 920px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
 }
