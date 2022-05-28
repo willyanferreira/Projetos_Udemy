@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+#cabecalho{
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo{
+    padding: 10px;
+}
+
+#menu{
+    padding: 10px;
+}
+
+#menu a:link, a:visited{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+#menu a:hover{
+    color: #F7b600;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#logo h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+#logo span.branco{
+    color: #fff;
+}
